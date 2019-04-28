@@ -25,7 +25,7 @@ Note: Command to run this markdown as a slide using reveal-md `reveal-md README.
 
 - A NoSQL (originally referring to "non SQL" or "non relational") database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
 - Most popular of them is MongoDB
-- There are around 150 different types
+- There are over 200 different types
 
 
 ![](images/examples-nosql.png)
@@ -33,7 +33,7 @@ Note: Command to run this markdown as a slide using reveal-md `reveal-md README.
 
 ## What is NoSQL Injection
 
-- The examples on the Internet and the one that we will look at cover some of the `Document Store` type NoSQL backends
+- The most common examples on the Internet and the one that we will look at cover some of the `Document Store` type NoSQL backends
 - A more correct description would be `Injection into apps with a NoSQL database backend of type Document Store`
 - But it has been popularised as NoSQL Injection. Just be aware that this is inaccurate.
 
@@ -113,7 +113,7 @@ make docker-build
 ```
 
 ```
-docker run --net=host -i -t acme-no-login /bin/sh -c 'make -f /app/Makefile _mn'
+docker run --net=host -it acme-no-login /bin/sh -c 'make -f /app/Makefile _mn'
 ```
 
 
@@ -121,6 +121,7 @@ docker run --net=host -i -t acme-no-login /bin/sh -c 'make -f /app/Makefile _mn'
 
 - https://www.owasp.org/index.php/Top_10-2017_A1-Injection
 - https://en.wikipedia.org/wiki/NoSQL
+- http://nosql-database.org
 - https://blog.websecurify.com/2014/08/hacking-nodejs-and-mongodb.html
 - https://github.com/websecurify/acme-no-login
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/NoSQL%20Injection
